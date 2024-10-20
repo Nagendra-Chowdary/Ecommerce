@@ -24,12 +24,17 @@
     gap: 50px;
     color: #626262;
 }
+.text-decor{
+    text-decoration: none ;
+    color: #171717 ;
+}
 .nav-menu li{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 3px;
+    color: black;
     cursor: pointer;
 }
 .nav-menu hr{
@@ -65,8 +70,9 @@
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    color: #c5bcbc;
+    color: #f8f5f5;
     font-size: 20px;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
